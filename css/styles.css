@@ -32,8 +32,7 @@ body {
   font-size: 16px;
 }
 .container {
-  width: 100%;
-  max-width: 1158px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -71,16 +70,22 @@ body {
   align-items: center;
   padding-top: 25.5px;
   padding-bottom: 25.5px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-nav {
   display: flex;
   gap: 76px;
+  align-items: center;
 }
 
 .header-nav-list {
   display: flex;
   gap: 40px;
+}
+
+.nav-item {
+  padding: 24px 0;
 }
 
 .header-contacts {
@@ -112,6 +117,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .logo-accent-dark {
@@ -126,6 +132,10 @@ body {
 .solutions {
   background-color: var(--navyblue);
   height: 600px;
+  padding: 188px 0;
+}
+
+.solutions-container {
 }
 
 .solutions-title {
@@ -143,7 +153,7 @@ body {
 }
 
 .order-btn {
-  display: flex;
+  display: block;
   color: #fff;
   background: var(--iris);
   font-size: 16px;
@@ -155,6 +165,8 @@ body {
   border-radius: 4px;
   gap: 10px;
   margin: 0 auto;
+  max-width: 169px;
+  height: 56px;
 }
 
 .order-button:hover,
@@ -163,6 +175,11 @@ body {
 }
 
 /*-----------------------PRINCIPALS----------------------*/
+
+.principals {
+  padding: 120px 0;
+}
+
 .principals-list {
   display: flex;
   padding-top: 120px;
@@ -175,6 +192,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .principals-item {
@@ -182,6 +200,11 @@ body {
 }
 
 /*-----------------------ACTIVITIES----------------------*/
+
+.activities {
+  padding-bottom: 120px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -203,7 +226,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-  padding-top: 120px;
+  margin-bottom: 72px;
 }
 
 .activities-list {
@@ -222,6 +245,10 @@ body {
 .our-team {
   background-color: var(--cloud);
   height: 732px;
+  padding: 120px 0;
+}
+
+.our-team-container {
 }
 
 .our-team-title {
