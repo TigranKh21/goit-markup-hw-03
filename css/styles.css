@@ -31,6 +31,10 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 16px;
 }
+
+img {
+  display: block;
+}
 .container {
   width: 1158px;
   padding-left: 15px;
@@ -65,12 +69,15 @@ body {
 
 /*-----------------------HEADER----------------------*/
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container {
   display: flex;
   align-items: center;
   padding-top: 25.5px;
   padding-bottom: 25.5px;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-nav {
@@ -163,9 +170,10 @@ body {
   cursor: pointer;
   padding: 16px 32px;
   border-radius: 4px;
+  border: none;
   gap: 10px;
   margin: 0 auto;
-  max-width: 169px;
+  min-width: 169px;
   height: 56px;
 }
 
@@ -260,6 +268,7 @@ body {
   text-transform: capitalize;
   text-align: center;
   padding-top: 120px;
+  margin-bottom: 72px;
 }
 
 .our-team-list {
@@ -275,20 +284,26 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-member {
   background-color: #fff;
   flex-basis: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-member-text {
   display: flex;
   flex-direction: column;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding: 32px 16px;
   gap: 8px;
   align-items: center;
+}
+
+.member-description {
+  text-align: center;
 }
 
 /*-----------------------FOOTER----------------------*/
@@ -296,6 +311,7 @@ body {
 .footer {
   background-color: var(--navyblue);
   height: 312px;
+  padding: 100px 0;
 }
 .footer-text {
   color: var(--cloud);
@@ -310,7 +326,8 @@ body {
 }
 
 .footer-logo {
-  padding-bottom: ;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 /*-----------------------PORTFOLIO-FILTERS----------------------*/
