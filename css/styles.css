@@ -8,6 +8,7 @@
   --cloud: #f4f4fd;
   --cornflower: #e7e9fc;
 }
+
 p,
 h1,
 h2,
@@ -25,6 +26,7 @@ ol {
   margin-bottom: 0;
   padding-left: 0;
 }
+
 body {
   color: #434455;
   background-color: #fff;
@@ -34,13 +36,16 @@ body {
 
 img {
   display: block;
+  width: 100%;
+  height: auto;
 }
+
 .container {
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   margin: 0 auto;
 }
+
 .list {
   list-style-type: none;
 }
@@ -139,7 +144,6 @@ img {
 .solutions {
   background-color: var(--navyblue);
   height: 600px;
-  padding: 188px 0;
 }
 
 .solutions-container {
@@ -190,7 +194,6 @@ img {
 
 .principals-list {
   display: flex;
-  padding-top: 120px;
   gap: 24px;
 }
 
@@ -239,7 +242,6 @@ img {
 
 .activities-list {
   display: flex;
-  padding-top: 72px;
   gap: 24px;
   padding-bottom: 120px;
 }
@@ -253,7 +255,6 @@ img {
 .our-team {
   background-color: var(--cloud);
   height: 732px;
-  padding: 120px 0;
 }
 
 .our-team-container {
@@ -274,10 +275,10 @@ img {
 .our-team-list {
   display: flex;
   margin: 0 auto;
-  padding-top: 72px;
   padding-bottom: 120px;
   gap: 24px;
 }
+
 .team-subtitle {
   color: var(--navyblue);
   font-size: 20px;
@@ -311,8 +312,8 @@ img {
 .footer {
   background-color: var(--navyblue);
   height: 312px;
-  padding: 100px 0;
 }
+
 .footer-text {
   color: var(--cloud);
   line-height: 1.5;
@@ -322,12 +323,11 @@ img {
 }
 
 .footer-container {
-  padding-top: 100px;
+  padding-top: 101.5px;
 }
 
 .footer-logo {
   display: inline-block;
-  margin-bottom: 16px;
 }
 
 /*-----------------------PORTFOLIO-FILTERS----------------------*/
