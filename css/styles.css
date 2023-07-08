@@ -41,7 +41,8 @@ img {
 
 .container {
   width: 1158px;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 }
 
@@ -212,7 +213,7 @@ img {
 /*-----------------------ACTIVITIES----------------------*/
 
 .activities {
-  padding-bottom: 120px 0;
+  padding-bottom: 120px;
 }
 
 .visually-hidden {
