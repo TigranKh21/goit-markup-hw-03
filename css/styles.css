@@ -244,7 +244,7 @@ img {
 }
 
 .activities-item {
-  flex-basis: calc((100% - 2 * 24) / 3);
+  flex-basis: calc((100% - 2 * 24px) / 3);
 }
 
 /*-----------------------TEAM----------------------*/
@@ -330,6 +330,7 @@ img {
   padding-top: 96px;
   padding-bottom: 120px;
 }
+
 /*-----------------------PORTFOLIO-FILTERS----------------------*/
 
 .filter-btn {
@@ -392,7 +393,7 @@ img {
 
 .project-item {
   margin-bottom: 24px;
-  width: calc((100% - 2 * 24) / 3);
+  width: calc((100%-2 * 24px) / 3);
 }
 
 .projects-subtitle {
