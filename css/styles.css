@@ -6,7 +6,6 @@
   --slate: #434455;
   --ocean: #404bbf;
   --cloud: #f4f4fd;
-  --cornflower: #e7e9fc;
 }
 
 p,
@@ -329,11 +328,16 @@ img {
   display: inline-block;
 }
 
+/*-----------------------PORTFOLIO----------------------*/
+
+.portfolio-hero {
+  padding: 96px 120px;
+}
 /*-----------------------PORTFOLIO-FILTERS----------------------*/
 
 .filter-btn {
   color: var(--iris);
-  border: 1px var(--cornflower);
+  border: 1px solid var(--cornflower);
   background-color: var(--cloud);
   font-family: Roboto, sans-serif;
   font-weight: 500;
@@ -348,6 +352,7 @@ img {
 .filter-btn:focus {
   color: #fff;
   background-color: #404bbf;
+  border: 1px solid transparent;
   font-family: Roboto, sans-serif;
   font-weight: 500;
   line-height: 1.5;
@@ -359,8 +364,7 @@ img {
   display: flex;
   gap: 24px;
   justify-content: center;
-  padding-bottom: 72px;
-  padding-top: 96px;
+  margin-bottom: 72px;
 }
 
 .filter-btn-item {
