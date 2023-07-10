@@ -39,12 +39,6 @@ img {
   height: auto;
 }
 
-.container {
-  padding: 0 15px;
-  width: 1158px;
-  margin: 0 auto;
-}
-
 .list {
   list-style-type: none;
 }
@@ -71,11 +65,16 @@ img {
   letter-spacing: 0.02rem;
 }
 
+.container {
+  padding: 0 15px;
+  width: 1158px;
+  margin: 0 auto;
+}
+
 /*-----------------------HEADER----------------------*/
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  height: 72px;
 }
 
 .header-container {
@@ -95,6 +94,7 @@ img {
 }
 
 .nav-item {
+  display: block;
   padding: 24px 0;
 }
 
